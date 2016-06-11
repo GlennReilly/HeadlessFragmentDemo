@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RetainedFragmentDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Click a button</string>
+    <string name="btn_text_update_count">Retained Count + 1</string>
+    <string name="btn_text_change_orientation">Rotate Display</string>
+    <string name="btn_text_restart">Restart</string>
+    <string name="btn_text_stop">Stop</string>
+</resources>
