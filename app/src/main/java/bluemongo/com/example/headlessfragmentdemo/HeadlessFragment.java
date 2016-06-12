@@ -97,7 +97,7 @@ public class HeadlessFragment extends Fragment  {
         @Override
         protected Void doInBackground(Void... params) {
             Log.i(TAG_TASK_THING, "task starting");
-            for (int i=0; i<100; i++){
+            for (int i=0; i <= 100; i++){
                 if (!isCancelled()) {
                     SystemClock.sleep(300);
                     publishProgress(i);
